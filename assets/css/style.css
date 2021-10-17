@@ -1,3 +1,4 @@
+/* asteric applys to all on the page */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,7 +8,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* HEADER AND NAV ELEMENTS START */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,10 +19,6 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
 }
 
 .header nav {
@@ -45,11 +42,9 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* HEADER AND NAV ELEMENTS END */
 
-p {
-    font-size: 16px;
-}
-
+/* MAIN IMAGE ON THE PAGE */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,6 +52,17 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* MAIN / ARTICLE ELEMENTS START (what they provide) */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -69,12 +75,29 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+
+.service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
+
+.service img {
+    max-height: 200px;
+}
+
+
+.service h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* MAIN / ARTICLE ELEMENTS END */
+
+/* ASIDE ELEMENTS START */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,29 +127,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* ASIDE ELEMENTS END */
 
 
-.service {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-.service img {
-    max-height: 200px;
-}
-
-
-.service h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
+/* sTART OF THE FOOTER ELEMENTS */
 .footer {
     padding: 30px;
     clear: both;
@@ -137,3 +141,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* FOOTER ELEMENTS END */
